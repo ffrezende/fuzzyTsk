@@ -32,7 +32,7 @@ arq.close()
 
 for i in x :
     w1.append(i*(1))
-    w2.append(i*(-1)+1)
+    w2.append(-1*abs(i)+1)
 
 i=0
 for i in range(12):
