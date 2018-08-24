@@ -31,8 +31,8 @@ for line in text :
 arq.close()
 
 for i in x :
-    w1.append(abs(i)*(1))
-    w2.append(-1*abs(i)+1)
+    w1.append(0.67*i + 0.33)
+    w2.append(-0.67*i + 0.33)
 
 i=0
 for i in range(12):
